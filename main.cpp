@@ -1,20 +1,16 @@
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
 
 int main() {
     int pasirinkimas, valiuta;
     double suma, apskaiciuotaValiuta;
-
     float GBP_Bendras = 0.8729;
     float GBP_Pirkti = 0.8600;
     float GBP_Parduoti = 0.9220;
-
     float USD_Bendras = 1.1793;
     float USD_Pirkti = 1.1460;
     float USD_Parduoti = 1.2340;
-
     float INR_Bendras = 104.6918;
     float INR_Pirkti = 101.3862;
     float INR_Parduoti = 107.8546;
@@ -62,7 +58,7 @@ int main() {
             return 0;
         }
 
-        cout << "Jus gausite: " << apskaiciuotaValiuta << endl;
+        cout << "Jusu nauja valiuta: " << apskaiciuotaValiuta << endl;
     }
     else if (pasirinkimas == 3) {
 
@@ -80,7 +76,7 @@ int main() {
             return 0;
         }
 
-        cout << "Jus gausite: " << apskaiciuotaValiuta << " EUR" << endl;
+        cout << "Jusu nauja valiuta: " << apskaiciuotaValiuta << " EUR" << endl;
     }
     else {
         cout << "Neteisingas pasirinkimas" << endl;
